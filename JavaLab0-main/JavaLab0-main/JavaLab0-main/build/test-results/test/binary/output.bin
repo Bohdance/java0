@@ -1,0 +1,40 @@
+(testAllNegative: task3(-1, -2, -3) = 0
+%testAllPositive: task3(1, 2, 3) = 3
+.testBothConditionsFalse: task2(1, 4) = false
+,testBothConditionsTrue: task2(3, 2) = true
+3testCalculateCost: task5(5.0) = [5.0, 10.0, 50.0]
+2testCalculateCost: task5(3.0) = [3.0, 6.0, 30.0]
+3testCalculateCost: task5(7.5) = [7.5, 15.0, 75.0]
+)testConditionAFail: task2(2, 2) = false
+)testConditionBFail: task2(3, 3) = false
+	 testDaysInMonth: task4(1) = 31
+	 testDaysInMonth: task4(2) = 28
+	 testDaysInMonth: task4(4) = 30
+	 testDaysInMonth: task4(6) = 30
+	!testDaysInMonth: task4(12) = 31
+
+9testGeometricProgression: task7(4, 1, 2) = [1, 2, 4, 8]
+
+;testGeometricProgression: task7(4, 3, 3) = [3, 9, 27, 81]
+
+9testGeometricProgression: task7(3, 5, 5) = [5, 25, 125]
+#testInvalidInput: task1(5, 0) = 0
+&testInvalidInput: task1(123, -5) = 0
+%testInvalidInput: task1(-12, 6) = 0
+$testInvalidInput: task1(5, 10) = 0
+%testIsPowerOfThree: task6(1) = true
+%testIsPowerOfThree: task6(3) = true
+%testIsPowerOfThree: task6(9) = true
+&testIsPowerOfThree: task6(27) = true
+&testIsPowerOfThree: task6(2) = false
+&testIsPowerOfThree: task6(4) = false
+'testIsPowerOfThree: task6(10) = false
+'testIsPowerOfThree: task6(28) = false
+HtestMatrix: task8(3, 3, {1, 2, 3}) = [[1, 2, 3], [1, 2, 3], [1, 2, 3]]
+<testMatrix: task8(3, 2, {4, 5}) = [[4, 5], [4, 5], [4, 5]]
+2testOnePositiveTwoNegative: task3(-1, -2, 3) = 1
+1testTwoPositiveOneNegative: task3(-1, 2, 3) = 2
+"testValidInput: task1(12, 5) = 2
+#testValidInput: task1(45, 14) = 3
+$testValidInput: task1(99, 100) = 0
+#testValidInput: task1(10, 12) = 0

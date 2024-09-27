@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lab0.Variant4Test" tests="18" skipped="0" failures="0" errors="0" timestamp="2024-09-20T09:33:02" hostname="FMI-21-04" time="0.28">
+  <properties/>
+  <testcase name="testAllNegative" classname="lab0.Variant4Test" time="0.041"/>
+  <testcase name="testAllPositive" classname="lab0.Variant4Test" time="0.001"/>
+  <testcase name="testBothConditionsFalse" classname="lab0.Variant4Test" time="0.001"/>
+  <testcase name="testBothConditionsTrue" classname="lab0.Variant4Test" time="0.001"/>
+  <testcase name="testCalculateCost" classname="lab0.Variant4Test" time="0.015"/>
+  <testcase name="testConditionAFail" classname="lab0.Variant4Test" time="0.005"/>
+  <testcase name="testConditionBFail" classname="lab0.Variant4Test" time="0.001"/>
+  <testcase name="testDaysInMonth" classname="lab0.Variant4Test" time="0.021"/>
+  <testcase name="testGeometricProgression" classname="lab0.Variant4Test" time="0.005"/>
+  <testcase name="testInvalidInput" classname="lab0.Variant4Test" time="0.007"/>
+  <testcase name="testInvalidMatrixInput" classname="lab0.Variant4Test" time="0.002"/>
+  <testcase name="testInvalidMonth" classname="lab0.Variant4Test" time="0.003"/>
+  <testcase name="testInvalidN" classname="lab0.Variant4Test" time="0.001"/>
+  <testcase name="testIsPowerOfThree" classname="lab0.Variant4Test" time="0.014"/>
+  <testcase name="testMatrix" classname="lab0.Variant4Test" time="0.015"/>
+  <testcase name="testOnePositiveTwoNegative" classname="lab0.Variant4Test" time="0.001"/>
+  <testcase name="testTwoPositiveOneNegative" classname="lab0.Variant4Test" time="0.001"/>
+  <testcase name="testValidInput" classname="lab0.Variant4Test" time="0.005"/>
+  <system-out><![CDATA[testAllNegative: task3(-1, -2, -3) = 0
+testAllPositive: task3(1, 2, 3) = 3
+testBothConditionsFalse: task2(1, 4) = false
+testBothConditionsTrue: task2(3, 2) = true
+testCalculateCost: task5(5.0) = [5.0, 10.0, 50.0]
+testCalculateCost: task5(3.0) = [3.0, 6.0, 30.0]
+testCalculateCost: task5(7.5) = [7.5, 15.0, 75.0]
+testConditionAFail: task2(2, 2) = false
+testConditionBFail: task2(3, 3) = false
+testDaysInMonth: task4(1) = 31
+testDaysInMonth: task4(2) = 28
+testDaysInMonth: task4(4) = 30
+testDaysInMonth: task4(6) = 30
+testDaysInMonth: task4(12) = 31
+testGeometricProgression: task7(4, 1, 2) = [1, 2, 4, 8]
+testGeometricProgression: task7(4, 3, 3) = [3, 9, 27, 81]
+testGeometricProgression: task7(3, 5, 5) = [5, 25, 125]
+testInvalidInput: task1(5, 0) = 0
+testInvalidInput: task1(123, -5) = 0
+testInvalidInput: task1(-12, 6) = 0
+testInvalidInput: task1(5, 10) = 0
+testIsPowerOfThree: task6(1) = true
+testIsPowerOfThree: task6(3) = true
+testIsPowerOfThree: task6(9) = true
+testIsPowerOfThree: task6(27) = true
+testIsPowerOfThree: task6(2) = false
+testIsPowerOfThree: task6(4) = false
+testIsPowerOfThree: task6(10) = false
+testIsPowerOfThree: task6(28) = false
+testMatrix: task8(3, 3, {1, 2, 3}) = [[1, 2, 3], [1, 2, 3], [1, 2, 3]]
+testMatrix: task8(3, 2, {4, 5}) = [[4, 5], [4, 5], [4, 5]]
+testOnePositiveTwoNegative: task3(-1, -2, 3) = 1
+testTwoPositiveOneNegative: task3(-1, 2, 3) = 2
+testValidInput: task1(12, 5) = 2
+testValidInput: task1(45, 14) = 3
+testValidInput: task1(99, 100) = 0
+testValidInput: task1(10, 12) = 0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

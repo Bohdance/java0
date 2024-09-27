@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lab0.Variant4Test" tests="18" skipped="0" failures="0" errors="0" timestamp="2024-09-12T19:20:40" hostname="DESKTOP-QBNGGCM" time="0.04">
+  <properties/>
+  <testcase name="testAllNegative" classname="lab0.Variant4Test" time="0.007"/>
+  <testcase name="testAllPositive" classname="lab0.Variant4Test" time="0.0"/>
+  <testcase name="testBothConditionsFalse" classname="lab0.Variant4Test" time="0.0"/>
+  <testcase name="testBothConditionsTrue" classname="lab0.Variant4Test" time="0.001"/>
+  <testcase name="testCalculateCost" classname="lab0.Variant4Test" time="0.0"/>
+  <testcase name="testConditionAFail" classname="lab0.Variant4Test" time="0.0"/>
+  <testcase name="testConditionBFail" classname="lab0.Variant4Test" time="0.0"/>
+  <testcase name="testDaysInMonth" classname="lab0.Variant4Test" time="0.002"/>
+  <testcase name="testGeometricProgression" classname="lab0.Variant4Test" time="0.001"/>
+  <testcase name="testInvalidInput" classname="lab0.Variant4Test" time="0.004"/>
+  <testcase name="testInvalidMatrixInput" classname="lab0.Variant4Test" time="0.001"/>
+  <testcase name="testInvalidMonth" classname="lab0.Variant4Test" time="0.0"/>
+  <testcase name="testInvalidN" classname="lab0.Variant4Test" time="0.001"/>
+  <testcase name="testIsPowerOfThree" classname="lab0.Variant4Test" time="0.0"/>
+  <testcase name="testMatrix" classname="lab0.Variant4Test" time="0.003"/>
+  <testcase name="testOnePositiveTwoNegative" classname="lab0.Variant4Test" time="0.001"/>
+  <testcase name="testTwoPositiveOneNegative" classname="lab0.Variant4Test" time="0.001"/>
+  <testcase name="testValidInput" classname="lab0.Variant4Test" time="0.003"/>
+  <system-out><![CDATA[testInvalidInput: task1(5, 0) = 0
+testInvalidInput: task1(123, -5) = 0
+testInvalidInput: task1(-12, 6) = 0
+testInvalidInput: task1(5, 10) = 0
+testValidInput: task1(12, 5) = 2
+testValidInput: task1(45, 14) = 3
+testValidInput: task1(99, 100) = 0
+testValidInput: task1(10, 12) = 0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

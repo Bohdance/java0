@@ -1,0 +1,8 @@
+#testInvalidInput: task1(5, 0) = 0
+&testInvalidInput: task1(123, -5) = 0
+%testInvalidInput: task1(-12, 6) = 0
+$testInvalidInput: task1(5, 10) = 0
+"testValidInput: task1(12, 5) = 2
+#testValidInput: task1(45, 14) = 3
+$testValidInput: task1(99, 100) = 0
+#testValidInput: task1(10, 12) = 0
